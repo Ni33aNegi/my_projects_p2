@@ -17,13 +17,13 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 ### 1. Database Setup
 
-- **Database Creation**: The project starts by creating a database named `abc`.
-- **Table Creation**: A table named `xyz` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+- **Database Creation**: The project starts by creating a database named `sql_project_p2`.
+- **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 ```sql
-CREATE DATABASE abc;
+CREATE DATABASE sql_project_p2;
 
-CREATE TABLE xyz
+CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
@@ -63,9 +63,6 @@ WHERE
     gender IS NULL OR age IS NULL OR category IS NULL OR 
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
 ```
-
-
-
 
 ## Findings
 
